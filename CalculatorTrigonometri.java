@@ -2,23 +2,28 @@
 /**
  * Abstract class CalculatorTrigonometri - write a description of the class here
  *
- * @author (your name here)
- * @version (version number or date here)
+ * @author ilmiza
+ * @version 23.04
  */
-public abstract class CalculatorTrigonometri
+public abstract class CalculatorTrigonometri extends Calculator
 {
-    // instance variables - replace the example below with your own
-    private int x;
-
-    /**
-     * An example of a method - replace this comment with your own
-     *
-     * @param  y  a sample parameter for a method
-     * @return    the sum of x and y
-     */
-    public int sampleMethod(int y)
-    {
-        // put your code here
-        return x + y;
+    protected double sudut;
+   
+   public abstract void konversi(double sudut);
+   
+   public double sin()
+   {
+       return Math.sin(this.sudut); 
+   }
+   
+   public double cos()
+   {
+       return Math.cos(this.sudut);
+       
     }
+    public double tan()
+    {
+        return Math.tan(this.sudut);
+    }
+   
 }
