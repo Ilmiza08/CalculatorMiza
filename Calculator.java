@@ -151,5 +151,39 @@ public class Calculator
         this.op2 = op2;
         return this.op1/ this.op2;
     }
+    /**
+     * set soc
+     *
+     * @param  SimpanOperasiCalculator   
+     * @return  void
+     */
+    public void setSimpanOperasi(SimpanOperasiCalculator soc)
+    {
+        this.soc = soc;
+    }
+    /**
+     * simpanOperasi
+     *
+     * @param  String data
+     *      
+     * @return void
+     */
+    public void simpanOperasi(String data) 
+    {
+        //simpan operasi
+        this.soc.simpanOperasi(data);
+    }
+    /**
+     * bacaOperasi
+     *
+     * @param  void
+     *      
+     * @return String
+     */
+    public String bacaOperasi() 
+    {
+        //baca operasi
+        return this.soc.bacaOperasi();
+    }
 
 }
