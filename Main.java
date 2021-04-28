@@ -8,7 +8,7 @@ public class Main
 {
     public static void main(String args[])
     {
-       System.out.println(Calculator.info);
+      /* System.out.println(Calculator.info);
        
     Calculator calculator1 = new Calculator();
     Calculator calculator4 = new Calculator();
@@ -71,6 +71,8 @@ public class Main
       System.out.println("Nilai dari tan 30 adalah"+ Math.tan(30));
       System.out.println("Nilai dari derajat sudut untuk PI/5 adalah " + Math.toDegrees(Math.PI/5) + " derajat");  
       System.out.println("Nilai dari sudut radian untuk sudut 22 derajat adalah " + Math.toRadians(22));  
+      
+    */
 
       Calculator cl = new Calculator();
       SimpanOperasiCalculator  spr = new SimpanOperasiKeMemoryReverse();
