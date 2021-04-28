@@ -39,38 +39,38 @@ public class Main
        System.out.println("Hasil pengurangan method kurang tanpa parameter:  " + kurang1);
        System.out.println("Hasil pengurangan  method kurang dengan parameter:  "+ kurang2);
        
-       //System.out.println("");
-       //double perkalian1 = calculator1.perkalian();
-       //double perkalian2 = calculator1.perkalian(5, 4);
-       //System.out.println("Hasil perkalian method kali tanpa parameter:  " + perkalian1);
-       //System.out.println("Hasil perkalian  method kali dengan parameter:  "+ perkalian2);
+       System.out.println("");
+       double perkalian1 = calculator1.perkalian();
+       double perkalian2 = calculator1.perkalian(5, 4);
+       System.out.println("Hasil perkalian method kali tanpa parameter:  " + perkalian1);
+       System.out.println("Hasil perkalian  method kali dengan parameter:  "+ perkalian2);
        
-       //System.out.println("");
-       //double pembagian1 = calculator1.pembagian();
-       //double pembagian2 = calculator1.pembagian(5, 4);
-       //System.out.println("Hasil pembagian method bagi tanpa parameter:  " + pembagian1);
-       //System.out.println("Hasil pembagian  method bagi dengan parameter:  "+ pembagian2);
+       System.out.println("");
+       double pembagian1 = calculator1.pembagian();
+       double pembagian2 = calculator1.pembagian(5, 4);
+       System.out.println("Hasil pembagian method bagi tanpa parameter:  " + pembagian1);
+       System.out.println("Hasil pembagian  method bagi dengan parameter:  "+ pembagian2);
        
-       //CalculatorScientific cs = new CalculatorScientific();
-       //System.out.println(" \nCalculatorScientific");
-      // System.out.println("Faktorial dari 5! adalah "+ cs.menghitungFaktorial(5));
-        //System.out.println("Luas Bujur Sangkar dengan sisi 5 sisi adalah "+ cs.bujurSangkar(5));
-       //System.out.println("luas lingkarannya adalah "+ cs.luasLingkaran(3.14, 10));
-       //System.out.println(CalculatorScientific.jumlahobject);
+       CalculatorScientific cs = new CalculatorScientific();
+       System.out.println(" \nCalculatorScientific");
+      System.out.println("Faktorial dari 5! adalah "+ cs.menghitungFaktorial(5));
+        System.out.println("Luas Bujur Sangkar dengan sisi 5 sisi adalah "+ cs.bujurSangkar(5));
+       System.out.println("luas lingkarannya adalah "+ cs.luasLingkaran(3.14, 10));
+       System.out.println(CalculatorScientific.jumlahobject);
        
-       //CalculatorProgramer cp = new CalculatorProgramer();
-     //  System.out.println("\n Kalkulator Programmer");
-    //   System.out.println("Konversi 7070 ke Hexadesimal adalah = "+ cp.konversiBilanganDesimaltoHex(7070));
-     //  System.out.println("Konversi 7070 ke Binner adalah = "+ cp.konversiBilanganDesimaltoBinner(7070));       
+        CalculatorProgramer cp = new CalculatorProgramer();
+       System.out.println("\n Kalkulator Programmer");
+      System.out.println("Konversi 7070 ke Hexadesimal adalah = "+ cp.konversiBilanganDesimaltoHex(7070));
+      System.out.println("Konversi 7070 ke Binner adalah = "+ cp.konversiBilanganDesimaltoBinner(7070));       
     
-     // CalculatorTrigonometri  clr = new CalculatorTriRadian();
-    //  CalculatorTrigonometri  cld = new CalculatorTriDegree();
-    //  System.out.println(" \n CalculatorTrigonometri ");
-    //  System.out.println("Nilai dari sin 23 adalah"+ Math.sin(23));
-     // System.out.println("Nilai dari Cos 40 adalah"+ Math.cos(40));
-     // System.out.println("Nilai dari tan 30 adalah"+ Math.tan(30));
-      //System.out.println("Nilai dari derajat sudut untuk PI/5 adalah " + Math.toDegrees(Math.PI/5) + " derajat");  
-      //System.out.println("Nilai dari sudut radian untuk sudut 22 derajat adalah " + Math.toRadians(22));  
+      CalculatorTrigonometri  clr = new CalculatorTriRadian();
+      CalculatorTrigonometri  cld = new CalculatorTriDegree();
+      System.out.println(" \n CalculatorTrigonometri ");
+      System.out.println("Nilai dari sin 23 adalah"+ Math.sin(23));
+      System.out.println("Nilai dari Cos 40 adalah"+ Math.cos(40));
+      System.out.println("Nilai dari tan 30 adalah"+ Math.tan(30));
+      System.out.println("Nilai dari derajat sudut untuk PI/5 adalah " + Math.toDegrees(Math.PI/5) + " derajat");  
+      System.out.println("Nilai dari sudut radian untuk sudut 22 derajat adalah " + Math.toRadians(22));  
 
       Calculator cl = new Calculator();
       SimpanOperasiCalculator  spr = new SimpanOperasiKeMemoryReverse();
